@@ -1,5 +1,5 @@
 {
-  "name": "protected-route-with-jwt",
+  "name": "protect-route-with-jwt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
