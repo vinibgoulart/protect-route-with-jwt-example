@@ -7,7 +7,7 @@ const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
     const navigate = useNavigate();
-    const [cookies, setCookies, removeCookie] = useCookies(['session']);
+    const [cookies, setCookies, removeCookie] = useCookies();
 
     const login = async ({ email, password }) => {
         const res = await api.post('/auth', {
